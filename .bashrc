@@ -1,1 +1,2 @@
-alias ll='ls -laiLF --color'
+alias ll='ls -lairtLF --color'
+alias dir='ll'

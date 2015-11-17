@@ -1,0 +1,18 @@
+[user]
+	name = odalet
+	email = odalet@gmail.com
+[core]
+	editor = 'C:/TOOLS/Notepad++/notepad++.exe'
+[credential]
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[push]
+	default = simple
+[http]
+	proxy = http://lyon.proxy.corp.sopra:8080
